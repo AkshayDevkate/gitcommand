@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gitcommand/static/css/main.073c9b0a.css",
+    "main.js": "/gitcommand/static/js/main.203114c2.js",
+    "static/js/787.90f8e613.chunk.js": "/gitcommand/static/js/787.90f8e613.chunk.js",
+    "static/media/logo.svg": "/gitcommand/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/gitcommand/index.html",
+    "main.073c9b0a.css.map": "/gitcommand/static/css/main.073c9b0a.css.map",
+    "main.203114c2.js.map": "/gitcommand/static/js/main.203114c2.js.map",
+    "787.90f8e613.chunk.js.map": "/gitcommand/static/js/787.90f8e613.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.203114c2.js"
+  ]
+}
