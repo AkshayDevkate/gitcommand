@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <table>
   <tr>
     <th>Name</th>
-    <th>GitHub user name</th>
+    <th>GitHub</th>
     <th>Country</th>
   </tr>
   <tr>
