@@ -7,7 +7,26 @@ function App() {
       <header className="App-header">
     
       
-      <h2> Make changes here </h2>
+      <table>
+  <tr>
+    <th>Name</th>
+    <th>GitHub user name</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Akshay Devkate</td>
+    <td>akshaydevkate</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Edit Here</td>
+    <td>Edit Here</td>
+    <td>Edit Here</td>
+  </tr>
+
+</table>
+
+
        
       </header>
     </div>
