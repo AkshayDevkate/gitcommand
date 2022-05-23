@@ -1,15 +1,13 @@
-import './App.css';
 
+import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-    
-      
+      <header className="App-header">     
       <table>
   <tr>
     <th>Name</th>
-    <th>GitHub user name</th>
+    <th>GitHub</th>
     <th>Country</th>
   </tr>
   <tr>
@@ -18,15 +16,12 @@ function App() {
     <td>Germany</td>
   </tr>
   <tr>
-    <td>Edit Here</td>
+    <td>New Branch Created</td>
     <td>Edit Here</td>
     <td>Edit Here</td>
   </tr>
 
-</table>
-
-
-       
+</table>     
       </header>
     </div>
   );
