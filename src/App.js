@@ -17,8 +17,8 @@ function App() {
   </tr>
   <tr>
     <td>New Branch Created</td>
-    <td>Edit Here</td>
-    <td>Edit Here</td>
+    <td>Some more code edited</td>
+    <td>Ee</td>
   </tr>
 
 </table>     
