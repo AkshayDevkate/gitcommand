@@ -71,7 +71,7 @@ git add .
 git commit -m "Now you are commit the code"
 git push
 ```
-When you run git push command you might get an error like 
+:exclamation: When you run git push command you might get an error like 
 ```
 fatal: The current branch branchOneTest has no upstream branch.
 To push the current branch and set the remote as upstream, use
@@ -85,7 +85,7 @@ git push -u origin <your_branch_name>
 ```
 After this you will not face problem to git push to this branch. you will also need to change the branch name once you are working on other branch active branch.
 #### 4. Working Parallely with the team 
-Some times while you are writting a new feature someone else would also have updated the repository for that thing you need to change the code.
+:exclamation: Some times while you are writting a new feature someone else would also have updated the repository for that thing you need to change the code.
 ```
 ! [rejected]        branchOneTest -> branchOneTest (fetch first)
 error: failed to push some refs to 'https://github.com/AkshayDevkate/gitcommand.git'
