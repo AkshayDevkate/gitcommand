@@ -14,7 +14,8 @@ This means now you have two copies of code. One in the remote repository and one
 If you dont have gh-pages installed install it using following command. Make sure git is installed on your computer check package.json file 
 npm install gh-pages --save-dev
 This will install github pages on local folder. gh-pages is used to deploy local changes to http://akshaydevkate.github.io/gitcommand
- #### 2. Making "commit" to remote repository. 
+
+#### 2. Making "commit" to remote repository. 
 Now open project /gitcommand with your favourite IDE i use Visual Studio Code. Now you have opened the the folder navigate to /gitcommand/src/App.js. You will make changes in App.js. We will edit table in App.js and then track changes.
 Now you have cloned the repository and you have all the code in the local machine. No go to the terminal or command prompt and write following commands.
 ```
