@@ -96,4 +96,63 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details
 ```
 #### 5. How to go back to previous code commits.
-Its impossible to make no errors, Sometimes you would have made chanegs that are unnesessary and want to go back to the previos code this can be done using.
+
+Its impossible to make no errors, Sometimes you would have made chanegs that are unnesessary and want to go back to the previos code this can be done using. To roll back to your previos commits changes that you made you can track them using.
+```
+git log
+```
+This will log all the changes with an unique code and accompanied by the date and time. 
+```
+Akshays-MacBook-Air-2:gitcommand akshaydevkate$ git log
+commit be2395c5f0f22f2a8c348926cadb555ef708822d (HEAD -> branchOneTest, origin/branchOneTest)
+Merge: ef572f2 3168242
+Author: Akshay Devkate <devkatte.akshay98@gmail.com>
+Date:   Mon May 23 12:33:50 2022 +0200
+
+test new commits
+
+commit ef572f2121123d8f96be3118602fb2775b2ab5d8
+Author: Akshay Devkate <devkatte.akshay98@gmail.com>
+Date:   Mon May 23 12:17:08 2022 +0200
+
+adding code to branch one again
+
+commit 3168242e3f6d12703a89ba2684c14553dcdd98c9
+Merge: a2ede6f e125af7
+Author: Akshay Dattatray Devkate <42045980+AkshayDevkate@users.noreply.github.com>
+Date:   Mon May 23 11:48:13 2022 +0200
+
+If you temporarily want to switch to the previos commits overlook the code and come back again use 
+git checkout 3168242e3f6d12703a89ba2684c14553dcdd98c9
+```
+
+The unique number is to identify the commits.
+
+[ The git checkout command allows you to move between the branches. Checking out a branch modifies the files in the working directory to match the branch's version, and also notifies Git to keep track of any new commits. ]
+If you want to make a new brach out of your old commit use command 
+```
+git checkout -b old-state 3168242e3f6d12703a89ba2684c14553dcdd98c9
+```
+Simply check out the branch you were on to get back to where you were.
+Hard Delete unpublished changes
+If you want to get rid of the uncommitted changes than use the command 
+```
+git reset hard 3168242e3f6d12703a89ba2684c14553dcdd98c9
+```
+This will all the changes you made to the branch and take the development to the previous state.
+If you want to keep the work on the top of the previos commit you can also do it with 
+```
+git stash 
+git reset hard 3168242e3f6d12703a89ba2684c14553dcdd98c9
+git stash pop 
+```
+```
+git revert 
+git clean 
+git reset 
+git rm 
+git branch 
+```
+References
+1] [reverting git repository to previos commits] (https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
+2]
