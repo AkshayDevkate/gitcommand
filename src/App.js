@@ -17,7 +17,7 @@ function App() {
   </tr>
   <tr>
     <td>New Branch Created</td>
-    <td>Edit Here</td>
+    <td>We have made new changes here</td>
     <td>Edit Here</td>
   </tr>
 
