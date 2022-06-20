@@ -45,6 +45,14 @@ If you are a lone contributor and you know that the local changes are the final 
 ```
 git push origin master --force
 ```
+
+
+```
+Error: 
+fatal: Authentication failed for 'https://github.com/
+```
+[Solution](https://ginnyfahs.medium.com/github-error-authentication-failed-from-command-line-3a545bfd0ca8)
+
 #### 3. Creating a new branch. 
 When you have an existing application running and you want to add a new feature. You create a branch and write the additional code about the feature. 
 You can either create a new branch by 
