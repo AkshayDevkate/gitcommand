@@ -161,6 +161,19 @@ git reset 
 git rm 
 git branch 
 ```
+### pulling files from remote repository
+
+When you pulled the code from master and edited it 
+
+```
+git stash 
+
+git stash drop
+
+git pull 
+
+```
+
 References
 1] [reverting git repository to previos commits] (https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
 2]
