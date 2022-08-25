@@ -92,6 +92,13 @@ You can run following command and then 
 git push -u origin <your_branch_name>
 ```
 After this you will not face problem to git push to this branch. you will also need to change the branch name once you are working on other branch active branch.
+
+```
+fatal: The current branch old-state has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin old-state
+```
 #### 4. Working Parallely with the team 
 :exclamation: Some times while you are writting a new feature someone else would also have updated the repository for that thing you need to change the code.
 ```
