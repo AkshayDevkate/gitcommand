@@ -16,8 +16,7 @@ Copy and paste the following command
 Find and list files  .env, .idea, .DS_Store .
 
 ```
- find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
-
+ find . -name .DS_Store -print0 | xargs -0 git rm -r -f --ignore-unmatch
 ```
 
 
@@ -34,8 +33,3 @@ Git push
 ```
 
 
-Push changes to analyse_prachi 
-
-git add .gitignore   
- git commit -m"remove .DS_Store"  
-Git push 
