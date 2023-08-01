@@ -6,10 +6,7 @@ Open terminal and navigate to SWORDS-UP
 
 Cd SWORDS-UP 
 
-First make sure that you are in analyse_prachi branch 
-Using git branch to check if you are on analyse prachi branch
-Or 
-Git checkout analyse prachi
+
 
 Copy and paste the following command 
  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
